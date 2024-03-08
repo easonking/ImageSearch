@@ -237,7 +237,7 @@ namespace 以图搜图
 
         private void lblGithub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start(new ProcessStartInfo { FileName = lblGithub.Text, UseShellExecute = true });
+           // Process.Start(new ProcessStartInfo { FileName = lblGithub.Text, UseShellExecute = true });
         }
 
         private void txtDirectory_DragEnter(object sender, DragEventArgs e)
